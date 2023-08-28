@@ -64,3 +64,39 @@
     color: #FFFFFF;
     margin: 20px 0px;
 }
+
+#main{
+    max-width: 1080px;
+    margin: 140px auto;
+}
+#main .failure-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#main .failure-img{
+    width: 450px;
+}
+#main .failure{
+    width: 40%;
+}
+#main .failure-tittle{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414; 
+}
+#main .failure-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    margin: 20px 0;
+}
+#main .failures li{
+    list-style-type: none;
+    margin-bottom: 8px;
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
