@@ -32,7 +32,7 @@
 .secondary-btn:hover{
     background-color: #ffffff;
     color: #005FAC;
-    border: 1px solid #ffffff;
+    border: 1px solid #005FAC;
 }
 
 
@@ -111,4 +111,23 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+
+#main .mindset{
+    margin: 130px 0px;
+    border-radius: 8px;
+
+    background-image: url(images/gradient1.png), url(images/watch.png);
+}
+
+#main .overlay-contents{
+    padding: 50px 0 50px 50px;
+    width: 50%;
+}
+#main .mindset-tittle{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 20px;
 }
