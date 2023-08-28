@@ -115,6 +115,17 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
+}
+#main .plans-tittle{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 15px 0 8px 0;
+}
+#main .plans-desc{
+    font-size: 20px;
+    font-weight: 500;
+    color: #737272;
 }
 
 /* Main mindset and overlay section styles */
